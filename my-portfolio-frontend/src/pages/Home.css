@@ -1,0 +1,32 @@
+.home-container {
+    max-width: 600px;
+    margin: 4rem auto;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 1.5rem 0;
+    object-fit: cover;
+
+    /* Blue neon glow */
+    box-shadow:
+        0 0 8px #00bcd4,
+        0 0 20px #00bcd4,
+        0 0 30px #00bcd4,
+        0 0 40px #00bcd4;
+
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    box-shadow:
+        0 0 12px #00e5ff,
+        0 0 30px #00e5ff,
+        0 0 50px #00e5ff,
+        0 0 70px #00e5ff;
+}

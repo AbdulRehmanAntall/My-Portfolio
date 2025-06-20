@@ -1,0 +1,46 @@
+/* footer.css */
+
+.footer {
+  background-color: rgb(15, 15, 15);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  color: #bbb;
+  font-size: 0.9rem;
+  border-top: 1px solid rgb(15, 15, 15);
+  user-select: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.social-icons {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.social-link svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+  filter: drop-shadow(0 0 2px rgba(0, 188, 212, 0.7));
+  transition: filter 0.3s ease;
+  color: inherit;
+}
+
+.social-link:hover,
+.social-link:focus {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 6px #00bcd4);
+  color: #00bcd4;
+  outline: none;
+}
