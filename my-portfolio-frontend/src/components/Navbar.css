@@ -24,15 +24,23 @@
 }
 
 .logo {
-  font-size: 1.5rem;
+  display: flex;
+  font-size: 1rem;
   font-weight: bold;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 2rem;
   height: 100%;
   cursor: pointer;
+
+}
+
+.logo:hover {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
+
 }
 
 .navlinks {

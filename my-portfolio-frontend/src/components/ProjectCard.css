@@ -1,0 +1,39 @@
+.Project-Card {
+    background-color: rgba(15, 15, 15, 0.95);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    min-height: 410px;
+    text-align: center;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.Project-Card:hover {
+    background-color: #0ff;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgb(5, 5, 5);
+    color: black;
+}
+
+.Project-heading {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.Project-Description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.Project-TechStack {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.Projects-Section {
+    padding: 60px;
+    background-color: #0ff;
+    text-align: center;
+
+
+}
+
+.Projects-Heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+
+}
+
+.Project-Portion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}

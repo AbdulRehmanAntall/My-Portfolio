@@ -1,0 +1,95 @@
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    padding: 40px;
+    color: white;
+    min-height: 100vh;
+}
+
+.SkillPortion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.SkillCategory {
+    padding: 10px;
+    background-color: #0fff;
+    /* neon cyan */
+    color: black;
+    width: 320px;
+    height: 310px;
+    border-radius: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 10px #0fff88;
+    transition: all 0.3s ease;
+    font-size: smallest;
+}
+
+.SkillCategory h2 {
+    font-size: 20px;
+
+
+}
+
+.SkillCategory p {
+    font-size: 5px;
+
+}
+
+.SkillCategory:hover {
+    background-color: black;
+    color: #0fff;
+    /* neon text color on hover */
+    box-shadow:
+        0 0 20px #0fff,
+        0 0 20px #0fff,
+        0 0 30px #0fff;
+}
+
+.SkillHeading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    user-select: none;
+}
+
+.SkillItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.SkillPill {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* light shade */
+    color: black;
+    padding: 8px 8px;
+    border-radius: 20px;
+    cursor: default;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    user-select: none;
+    box-shadow: none;
+}
+
+.SkillPill:hover {
+    background-color: #0fff;
+    color: rgb(5, 5, 5);
+    /* neon cyan */
+    box-shadow:
+        0 0 5px #0fff,
+        0 0 10px #0fff,
+        0 0 15px #0fff;
+    cursor: pointer;
+}
