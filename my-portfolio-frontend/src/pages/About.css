@@ -1,0 +1,62 @@
+.About-Section {
+    background-color: #0ff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.About-Portion {
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Portion div {
+    background-color: #000000;
+    /* Black background by default */
+    color: white;
+    /* White text by default */
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0 0 30px rgba(2, 2, 2, 0.6);
+    /* Neon glow */
+    transition: all 0.3s ease;
+}
+
+.About-Portion h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.About-Portion p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    transition: color 0.6s ease;
+    font-weight: 400;
+}
+
+.About-Portion div:hover {
+    background-color: #0fff;
+    /* Neon cyan background on hover */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    /* Black box shadow */
+    transform: scale(1.05);
+    /* Slightly increase size */
+}
+
+.About-Portion div:hover p,
+.About-Portion div:hover h1 {
+    color: black;
+    /* Black text on hover */
+}

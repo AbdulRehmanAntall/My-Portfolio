@@ -1,0 +1,77 @@
+.work-section {
+    padding: 60px 20px;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-heading-title {
+
+    color: #0ff;
+
+    margin-bottom: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.work-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.work-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #111;
+    border: 1px solid #00ffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px #00ffff66;
+    transition: transform 0.3s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 30px #00ffffaa, 0 0 60px #00ffffaa;
+}
+
+.work-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+    filter: drop-shadow(0 0 5px #00ffff);
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-title {
+    font-size: 22px;
+    color: #0ff;
+    margin-bottom: 5px;
+}
+
+.work-company {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.work-dates {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 12px;
+}
+
+.work-description {
+    font-size: 16px;
+    color: #eeeeee;
+    line-height: 1.5;
+}

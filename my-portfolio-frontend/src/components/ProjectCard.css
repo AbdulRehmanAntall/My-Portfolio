@@ -12,6 +12,9 @@
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
+.Project-Card p{
+    text-align: left;
+}
 
 .Project-Card:hover {
     background-color: #0ff;
