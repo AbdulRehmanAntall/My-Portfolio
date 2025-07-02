@@ -5,7 +5,7 @@ const WorkExperienceData = [
         title: "Summer Spark Intern",
         company: "UFone PTCL",
         logo: PTCLLOGO,
-        startDate: "June 2025",
+        startDate: "July 2025",
         endDate: "Present",
         description: ""
     }
